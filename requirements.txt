@@ -1,3 +1,4 @@
+black
 tensorflow==2.9.1
 tensorflow-hub==0.13.0
 -i https://download.pytorch.org/whl/cu113
