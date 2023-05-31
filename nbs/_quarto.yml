@@ -1,0 +1,39 @@
+project:
+  type: website
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    page-layout: full
+    fontcolor: black
+    linkcolor: black
+    link-external-newwindow: true
+    toc: true
+    code-link: true
+    code-copy: true
+    code-fold: true
+    html-math-method: katex
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    highlight-style: tango
+
+website:
+
+  repo-actions: [issue]
+  navbar:
+    background: light
+    search: true
+    tools:
+      - icon : book
+        href : "https://github.com/candemircan/NaturalCogSci"
+      - icon : database
+        href : "https://github.com/candemircan/NaturalCogSci"
+      - icon : github
+        href : "https://github.com/candemircan/NaturalCogSci"
+  sidebar:
+    style: floating
+
+metadata-files: [nbdev.yml, sidebar.yml]

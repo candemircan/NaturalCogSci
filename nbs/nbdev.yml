@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "NaturalCogSci"
+  site-url: "https://candemircan.github.io/NaturalCogSci"
+  description: "Code for the NaturalCogSci project"
+  repo-branch: main
+  repo-url: "https://github.com/candemircan/NaturalCogSci"
