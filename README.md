@@ -30,7 +30,7 @@
 > settings and emphasize the role of language in shaping human
 > cognition.
 
-<img src="./task_designs.png" style="width:100.0%"
+<img src="./nbs/task_designs.png" style="width:100.0%"
 data-fig-align="center" />
 
 ## Setup
