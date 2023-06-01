@@ -42,7 +42,7 @@ RUN R -e "devtools::install_version('broom.mixed', version = '0.2.9.4', dependen
 
 # install python packages
 RUN pip3 install git+https://github.com/candemircan/NaturalCogSci.git
-RUN pip3 install -r https://raw.githubusercontent.com/candemircan/NaturalCogSci/main/requirements.txt
+RUN python3 -m pip install  -r https://raw.githubusercontent.com/candemircan/NaturalCogSci/main/requirements.txt
 
 # define environment variables
 RUN echo "EXPORT NATURALCOGSCI_ROOT=/home/NaturalCogSci" >> ~/.bashrc
