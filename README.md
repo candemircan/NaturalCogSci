@@ -62,6 +62,16 @@ pip install -e .
 
 For the versions of R dependencies, you can see the `DOCKERFILE`
 
+## Environment Variables
+
+The code uses the environment variable `NATURALCOGSCI_ROOT` to determine the root directory of the project. You can set this variable in your `.bashrc` file (or whatever your shell rc file might be) as follows:
+
+```bash
+export NATURALCOGSCI_ROOT=/path/to/NaturalCogSci
+```
+
+For me, R could not read this variable from the shell, so I had to set it in the `~/.Renviron` file as well.
+
 ## Experiments
 
 Both experiments are shared under the `experiments` folder. See the
