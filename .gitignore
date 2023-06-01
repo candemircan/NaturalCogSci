@@ -149,3 +149,10 @@ checklink/cookies.txt
 
 # Quarto
 .quarto
+
+embedding_weights_and_binaries/*
+!embedding_weights_and_binaries/.gitkeep
+THINGS/*
+!THINGS/.gitkeep
+temp/*
+!temp/.gitkeep

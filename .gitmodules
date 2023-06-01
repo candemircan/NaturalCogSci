@@ -1,8 +1,0 @@
-[submodule "experiments/category_learning"]
-	path = experiments/category_learning
-	url = git@github.com:candemircan/NaturalCategoryLearningExperiment.git
-	branch = main
-[submodule "experiments/reward_learning"]
-	path = experiments/reward_learning
-	url = git@github.com:candemircan/NaturalRewardLearningExperiment.git
-	branch = main
